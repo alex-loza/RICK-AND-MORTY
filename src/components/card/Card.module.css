@@ -1,0 +1,59 @@
+.container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 270px;
+    border: solid 2px rgb(255, 89, 0);
+    border-radius: 20px;
+    background-color: rgba(60, 255, 0, 0.425);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px rgba(212, 0, 191, 0.5);
+}
+.container:hover{
+    transform: scale(1.05);
+    z-index: 2;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+.buttonContainer{
+    display: flex;
+    justify-content: end;
+}
+.button{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(201, 189, 25);
+    color: black;
+}
+.button:hover{
+    background-color: rgba(201, 189, 25, 0.694);
+    color: black;
+}
+img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.imgContainer{
+    display: flex;
+    flex-direction:column-reverse;
+    margin-top: 10px;
+    align-items: center;
+}
+.name{
+    position: absolute;
+    margin-bottom: 0px;
+    background-color: rgba(164, 74, 0, 0.655);
+    border-radius: 20%;
+}
+.propsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+.propsContainer h2{
+    margin: 0px;
+    background-color: rgba(164, 74, 0, 0.655);
+    border-radius: 20%;
+}
